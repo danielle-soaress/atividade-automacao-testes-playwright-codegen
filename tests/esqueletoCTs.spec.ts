@@ -1,5 +1,9 @@
 import { test, expect } from '@playwright/test';
 
+// Esse arquivo foi gerado automaticamente pelo Playwright a partir da gravação dos CTs.
+// Pelo que foi pesquisado, ele pode ser usado como base, mas depois os testes foram reescritos manualmente em 
+// login.spec.ts para melhor organização e clareza.
+
 // CT01
 test('test', async ({ page }) => {
   await page.goto('https://practicetestautomation.com/practice-test-login/');
